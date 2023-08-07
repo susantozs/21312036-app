@@ -21,4 +21,6 @@ Route::get('/hello', function () {
     echo "<h1>Hello laravel</h1>";
 });
 
-
+Route::get('/home', function () {
+    return view('home');
+});
